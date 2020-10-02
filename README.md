@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size:36px;font-weight:bold;">
-        FbUID
+        FbUID -  Facebook User ID Extractor
 </h1>
 <h4 align="center">
     <strong>Made with love by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
@@ -39,7 +39,7 @@ Developers, Security Researchers, Bug Bounty hunters, etc need to know Facebook 
  </h2>
  
   1. ```fbuid```: 
-  Simply enterting fbuid will prompt you to enter username and then show you the UserID for that username.
+  Simply entering fbuid will prompt you to enter username and then show you the UserID for that username.
   
   <p align="center">
     <img src="/screenshots/FbUIDnormal.png">
