@@ -39,7 +39,7 @@ Developers, Security Researchers, Bug Bounty hunters, etc need to know Facebook 
  </h2>
  
   1. ```fbuid```: 
-  Simply enterting fbuid will prompt you to enter username and then show you the UserID for that username.
+  Simply entering fbuid will prompt you to enter username and then show you the UserID for that username.
   
   <p align="center">
     <img src="/screenshots/FbUIDnormal.png">
