@@ -19,35 +19,40 @@ do
 	esac
 done
 
+function getUserId() {
+	local userid=`curl -L -s https://mbasic.facebook.com/$1 | grep -o -P '(?<=lrid=).*?(?=&amp)'`;
+	echo "$userid"
+}
+
+function renderResult() {
+	if [ "$2" == "" ]; then
+		echo "Facebook is probably blocking our request. Please try again later."
+	else	
+		echo -n "The UserID for $1 is: $2 "
+	fi	
+}
+
 if [ "$1" == "" ];
 then
 echo "
 "
 echo -n "Enter Username: "; read username
 echo "
-"	
-	userid=`curl -L -s https://mbasic.facebook.com/$username | grep -o -P '(?<=lrid=).*?(?=&amp)'`
-	if [ "$userid" == "" ]; then
-		echo "Facebook is probably blocking our request. Please try again later."
-	else	
-	echo -n "The UserID for $username is: $userid"
-	fi
+"
+	userid="$(getUserId $username)"
+	renderResult $username $userid
 echo "
 "
 fi
 
 if [ "$filename" != "" ];
 then
-	echo "
+echo "
 "
 	while read line; do
-useridforline=`curl -L -s https://mbasic.facebook.com/$line | grep -o -P '(?<=lrid=).*?(?=&amp)'`
-if [ "$useridforline" == "" ]; then
-	echo "Facebook is probably blocking our request. Please try again later."
-else	
-echo -n "The UserID for $line is: $useridforline "
-printf "\n"
-fi
+		useridforline="$(getUserId $line)"
+		renderResult $line $useridforline
+		printf "\n"
 done < $filename
 echo "
 "
@@ -55,14 +60,10 @@ fi
 
 if [ "$nameinput" != "" ];
 then
-	echo "
+echo "
 "
-userIDfornameinput=`curl -L -s https://mbasic.facebook.com/$nameinput | grep -o -P '(?<=lrid=).*?(?=&amp)'`
-if [ "$userIDfornameinput" == "" ]; then
-echo "Facebook is probably blocking our request. Please try again later."
-else
-echo -n "The UserID for $nameinput is: $userIDfornameinput"
-fi
+	userIDfornameinput="$(getUserId $nameinput)"
+	renderResult $nameinput $userIDfornameinput
 echo "
 "
 fi
