@@ -70,3 +70,5 @@ Developers, Security Researchers, Bug Bounty hunters, etc need to know Facebook 
 
 Currently there is an issue with FbUID where Facebook blocks our requests after certain number of requests and then we have to wait for some time (generally, 2-3 minutes) in order to get it working again. Feel free to create a <strong>Pull Request</strong> with modifications to the original code if you can fix this issue. Please test your code with atleast 100 usernames before making a PR.<br>
 <strong>Pull Requests</strong> for any kind of development in FbUID are welcome.
+
+*While making a PR, make sure to add yourself in thanks.md list.*
