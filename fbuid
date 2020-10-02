@@ -1,0 +1,81 @@
+#!/usr/bin/env bash
+
+echo "
+	  _  _         __  _  _    ___  _     _   ___ _        _ ___ 
+	 |_ |_)   | | (_  |_ |_)    |  | \   |_ \/ | |_)  /\  /   |  
+	 |  |_)   |_| __) |_ | \   _|_ |_/   |_ /\ | | \ /--\ \_  |  
+	                                                             "
+echo " 
+-Extract UserID of a public Facebook account if the username is known-
+      
+	---Made With Love By - Baibhav | Twitter : @spongebhav ---"
+                                                     
+while getopts u:f:h: flag
+do
+	case "${flag}" in
+		u) nameinput=${OPTARG};;
+		f) filename=${OPTARG};;
+		h) help=${OPTARG};
+	esac
+done
+
+if [ "$1" == "" ];
+then
+echo "
+"
+echo -n "Enter Username: "; read username
+echo "
+"	
+	userid=`curl -L -s https://mbasic.facebook.com/$username | grep -o -P '(?<=lrid=).*?(?=&amp)'`
+	if [ "$userid" == "" ]; then
+		echo "Facebook is probably blocking our request. Please try again later."
+	else	
+	echo -n "The UserID for $username is: $userid"
+	fi
+echo "
+"
+fi
+
+if [ "$filename" != "" ];
+then
+	echo "
+"
+	while read line; do
+useridforline=`curl -L -s https://mbasic.facebook.com/$line | grep -o -P '(?<=lrid=).*?(?=&amp)'`
+if [ "$useridforline" == "" ]; then
+	echo "Facebook is probably blocking our request. Please try again later."
+else	
+echo -n "The UserID for $line is: $useridforline "
+printf "\n"
+fi
+done < $filename
+echo "
+"
+fi
+
+if [ "$nameinput" != "" ];
+then
+	echo "
+"
+userIDfornameinput=`curl -L -s https://mbasic.facebook.com/$nameinput | grep -o -P '(?<=lrid=).*?(?=&amp)'`
+if [ "$userIDfornameinput" == "" ]; then
+echo "Facebook is probably blocking our request. Please try again later."
+else
+echo -n "The UserID for $nameinput is: $userIDfornameinput"
+fi
+echo "
+"
+fi
+
+if [ "$filename" == "" ] && [ "$nameinput" == "" ] && [ "$1" != "" ]; then
+	echo "
+Note : FbUID will only work for public Facebook accounts. 
+
+Usage:
+
+fbuid (without any arguments)      will present you with a prompt to enter username.
+-u  To specify username
+-f  To specify full path to text file containing usernames"
+echo "
+"
+fi
