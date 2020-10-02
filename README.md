@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size:36px;font-weight:bold;">
-        FbUID
+        FbUID -  Facebook User ID Extractor
 </h1>
 <h4 align="center">
     <strong>Made with love by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
