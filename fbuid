@@ -9,7 +9,7 @@ echo "
 echo " 
 	-Extract UserID of a public Facebook account-
       
----Made With Love By - Baibhav | Twitter : @spongebhav ---"
+---Made With Love By - Baibhav | Twitter : @spongebhav---"
                                                      
 while getopts u:f:h: flag
 do
