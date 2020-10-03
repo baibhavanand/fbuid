@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
 echo "
-				  _         ___  _  
-				 |_ |_  | |  |  | \ 
-				 |  |_) |_| _|_ |_/ 
-				                    
+		  _         ___  _  
+		 |_ |_  | |  |  | \ 
+		 |  |_) |_| _|_ |_/ 
+					                    
 "
 echo " 
-	-Extract UserID of a public Facebook account if the username is known-
+	-Extract UserID of a public Facebook account-
       
-		---Made With Love By - Baibhav | Twitter : @spongebhav ---"
+---Made With Love By - Baibhav | Twitter : @spongebhav ---"
                                                      
 while getopts u:f:h: flag
 do
