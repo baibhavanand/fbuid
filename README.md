@@ -1,5 +1,6 @@
 <h1 align="center" style="font-size:36px;font-weight:bold;">
-        FbUID -  Facebook User ID Extractor
+        FbUID<br>
+        -Extract UserIDs of public Facebook Profiles instantly-
 </h1>
 <h4 align="center">
     <strong>Made with love by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
@@ -14,8 +15,14 @@
 
 *Note: FbUID only works with Public Facebook Accounts.*
 
-<h5>FbUID is a program written is bash that can extract UserID of a public Facebook account if the username is known.
-Developers, Security Researchers, Bug Bounty hunters, etc need to know Facebook User ID of a certain user time to time. To make the process simpler I coded FbUID.</h5>
+As a developer, security researcher, bug bounty hunter, etc we often need the Facebook UserID of a user. For ex: userID for username: <strong>spongebhav</strong> is: <strong>100007536576842</strong>.
+
+However, getting Facebook userID for a user can sometimes be time-consuming and a boring task.
+
+To fix this problem, I present you guys with this tool: **FbUID**.
+
+This tool is written completely in bash and can be used to extract userID for a public Facebook profiles if the username is known. You can specify a username or a text file containing a list of usernames to extract the userIDs from.
+
 
 <h2 align="center">
   <strong>Installation</strong>
