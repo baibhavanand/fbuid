@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+<h1 align="center" style="font-size:36px;font-weight:bold;">
+        FbUID<br>
+        -Extract UserIDs of public Facebook Profiles instantly-
+</h1>
+<h4 align="center">
+    <strong>Made with love by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
+</h4>
+<p align="center">
+    <img src="/screenshots/FbUIDhelp.png">
+</p>
 
-You can use the [editor on GitHub](https://github.com/baibhavanand/fbuid/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<h2 align="center">
+  <strong>Introduction</strong>
+ </h2>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*Note: FbUID only works with Public Facebook Accounts.*
 
-### Markdown
+As a developer, security researcher, bug bounty hunter, etc we often need the Facebook UserID of a user. For ex: userID for username: <strong>spongebhav</strong> is: <strong>100007536576842</strong>.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+However, getting Facebook userID for a user can sometimes be time-consuming and a boring task.
 
-```markdown
-Syntax highlighted code block
+To fix this problem, I present you guys with this tool: **FbUID**.
 
-# Header 1
-## Header 2
-### Header 3
+This tool is written completely in bash and can be used to extract userID for a public Facebook profiles if the username is known. You can specify a username or a text file containing a list of usernames to extract the userIDs from.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+<h2 align="center">
+  <strong>Installation</strong>
+ </h2>
 
-**Bold** and _Italic_ and `Code` text
+1. Download OR Clone the repository in your machine:
+```git clone https://github.com/baibhavanand/fbuid```
 
-[Link](url) and ![Image](src)
-```
+2. Switch to **fbuid** directory:
+```cd fbuid```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+3. Give permissions to install.sh file:
+```sudo chmod 777 install.sh```
 
-### Jekyll Themes
+4. Run install.sh:
+```./install.sh```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/baibhavanand/fbuid/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+<h2 align="center">
+  <strong>Usage</strong>
+ </h2>
+ 
+  1. ```fbuid```: 
+  Simply entering fbuid will prompt you to enter username and then show you the UserID for that username.
+  
+  <p align="center">
+    <img src="/screenshots/FbUIDnormal.png">
+</p>
+  
+  2. ```fbuid -u <username>```: 
+  Username can also be passed via -u argument.
+  
+  <p align="center">
+    <img src="/screenshots/fbuidUarg.png">
+</p>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  3. ```fbuid -f <file path>```:
+  Users can also pass a file with list of usernames using -f argument.
+  
+  <p align="center">
+    <img src="/screenshots/fbuidFarg.png">
+</p>
+
+
+
+<h2 align="center">
+  <strong>Feature Requests</strong>
+ </h2>
+<p align="center">
+    <a href="https://github.com/baibhavanand/fbuid/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
+</p>
+
+Currently there is an issue with FbUID where Facebook blocks our requests after certain number of requests and then we have to wait for some time (generally, 2-3 minutes) in order to get it working again. Feel free to create a <strong>Pull Request</strong> with modifications to the original code if you can fix this issue. Please test your code with atleast 100 usernames before making a PR.<br>
+<strong>Pull Requests</strong> for any kind of development in FbUID are welcome.
+
+*While making a PR, make sure to add yourself in thanks.md list.*
