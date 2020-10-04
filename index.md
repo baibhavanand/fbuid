@@ -6,7 +6,7 @@
     <strong>Made with love by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
 </h4>
 <p align="center">
-    <img src="/screenshots/FbUIDhelp.png">
+    <img src="screenshots/FbUIDhelp.png">
 </p>
 
 <h2 align="center">
