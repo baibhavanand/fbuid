@@ -6,7 +6,7 @@
     <strong>Made with love by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
 </h4>
 <p align="center">
-    <img src="https://raw.githubusercontent.com/baibhavanand/fbuid/main/screenshots/FbUIDhelp.png">
+    <img src="/screenshots/FbUIDhelp.png">
 </p>
 
 <h2 align="center">
@@ -49,21 +49,21 @@ This tool is written completely in bash and can be used to extract userID for a 
   Simply entering fbuid will prompt you to enter username and then show you the UserID for that username.
   
   <p align="center">
-    <img src="https://raw.githubusercontent.com/baibhavanand/fbuid/main/screenshots/FbUIDnormal.png">
+    <img src="/screenshots/FbUIDnormal.png">
 </p>
   
   2. ```fbuid -u <username>```: 
   Username can also be passed via -u argument.
   
   <p align="center">
-    <img src="https://raw.githubusercontent.com/baibhavanand/fbuid/main/screenshots/fbuidUarg.png">
+    <img src="/screenshots/fbuidUarg.png">
 </p>
 
   3. ```fbuid -f <file path>```:
   Users can also pass a file with list of usernames using -f argument.
   
   <p align="center">
-    <img src="https://raw.githubusercontent.com/baibhavanand/fbuid/main/screenshots/fbuidFarg.png">
+    <img src="/screenshots/fbuidFarg.png">
 </p>
 
 
