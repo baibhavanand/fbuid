@@ -31,37 +31,37 @@ This tool is written completely in bash and can be used to extract userID for a 
  </h2>
 
 1. Download OR Clone the repository in your machine:
-```git clone https://github.com/baibhavanand/fbuid```
+<pre>git clone https://github.com/baibhavanand/fbuid</pre>
 
 2. Switch to **fbuid** directory:
-```cd fbuid```
+<pre>cd fbuid</pre>
 
 3. Give permissions to install.sh file:
-```sudo chmod 777 install.sh```
+<pre>sudo chmod 777 install.sh</pre>
 
 4. Run install.sh:
-```./install.sh```
+<pre>./install.sh</pre>
 
 
 <h2 align="center">
   <strong>Usage</strong>
  </h2>
  
-  1. ```fbuid```: 
+  1. <pre>fbuid</pre>
   Simply entering fbuid will prompt you to enter username and then show you the UserID for that username.
   
   <p align="center">
     <img src="screenshots/FbUIDnormal.png">
 </p>
   
-  2. ```fbuid -u <username>```: 
+  2. <pre>fbuid -u <username></pre>
   Username can also be passed via -u argument.
   
   <p align="center">
     <img src="screenshots/fbuidUarg.png">
 </p>
 
-  3. ```fbuid -f <file path>```:
+  3. <pre>fbuid -f <file path></pre>
   Users can also pass a file with list of usernames using -f argument.
   
   <p align="center">
