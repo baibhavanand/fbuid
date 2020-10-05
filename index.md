@@ -30,16 +30,16 @@ This tool is written completely in bash and can be used to extract userID for a 
   <strong>Installation</strong>
  </h2>
 
-1. Download OR Clone the repository in your machine:
+* Download OR Clone the repository in your machine:
 <pre>git clone https://github.com/baibhavanand/fbuid</pre>
 
-2. Switch to **fbuid** directory:
+* Switch to **fbuid** directory:
 <pre>cd fbuid</pre>
 
-3. Give permissions to install.sh file:
+* Give permissions to install.sh file:
 <pre>sudo chmod 777 install.sh</pre>
 
-4. Run install.sh:
+* Run install.sh:
 <pre>./install.sh</pre>
 
 
