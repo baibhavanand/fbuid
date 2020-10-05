@@ -77,4 +77,6 @@ This tool is written completely in bash and can be used to extract userID for a 
     <a href="https://github.com/baibhavanand/fbuid/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
 </p>
 
-Please check our [github page](https://github.com/baibhavanand/fbuid) for information regarding the kind of pull requests I am looking for.
+Please check [FbUID github page](https://github.com/baibhavanand/fbuid) for information regarding the kind of pull requests I am accepting.
+<br><br>< /br><br>
+*This project is maintained by [Baibhav Anand Jha](https://github.com/baibhavanand)* 
