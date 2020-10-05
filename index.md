@@ -1,5 +1,6 @@
-<h1 align="center" style="font-size:36px;font-weight:bold;">
-        FbUID<br>
+<h1 align="center" style="font-size:36px;font-weight:bold;"> _         ___  _<br>  
+|_ |_  | |  |  | \<br> 
+|  |_) |_| _|_ |_/<br>
         -Extract UserIDs of public Facebook Profiles-
 </h1>
 <h4 align="center">
