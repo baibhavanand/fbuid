@@ -54,14 +54,14 @@ This tool is written completely in bash and can be used to extract userID for a 
     <img src="screenshots/FbUIDnormal.png">
 </p>
   
-  2. <pre>fbuid -u <username></pre>
+  2. <pre>fbuid -u (username)</pre>
   Username can also be passed via -u argument.
   
   <p align="center">
     <img src="screenshots/fbuidUarg.png">
 </p>
 
-  3. <pre>fbuid -f <file path></pre>
+  3. <pre>fbuid -f (file path)</pre>
   Users can also pass a file with list of usernames using -f argument.
   
   <p align="center">
