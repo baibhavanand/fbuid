@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size:36px;font-weight:bold;"><pre>
- __        ___  _
+_         ___  _
 |_ |_  | |  |  | \
 |  |_) |_| _|_ |_/</pre><br>
         -Extract UserIDs of public Facebook Profiles-
