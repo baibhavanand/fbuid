@@ -1,6 +1,7 @@
-<h1 align="center" style="font-size:36px;font-weight:bold;"> _         ___  _<br>  
-|_ |_  | |  |  | \<br> 
-|  |_) |_| _|_ |_/<br>
+<h1 align="center" style="font-size:36px;font-weight:bold;"><pre>
+ _         ___  _
+|_ |_  | |  |  | \
+|  |_) |_| _|_ |_/</pre><br>
         -Extract UserIDs of public Facebook Profiles-
 </h1>
 <h4 align="center">
