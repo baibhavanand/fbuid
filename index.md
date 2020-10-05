@@ -47,21 +47,21 @@ This tool is written completely in bash and can be used to extract userID for a 
   <strong>Usage</strong>
  </h2>
  
-  1. <pre>fbuid</pre>
+  <pre>fbuid</pre>
   Simply entering fbuid will prompt you to enter username and then show you the UserID for that username.
   
   <p align="center">
     <img src="screenshots/FbUIDnormal.png">
 </p>
   
-  2. <pre>fbuid -u (username)</pre>
+  <pre>fbuid -u (username)</pre>
   Username can also be passed via -u argument.
   
   <p align="center">
     <img src="screenshots/fbuidUarg.png">
 </p>
 
-  3. <pre>fbuid -f (file path)</pre>
+  <pre>fbuid -f (file path)</pre>
   Users can also pass a file with list of usernames using -f argument.
   
   <p align="center">
