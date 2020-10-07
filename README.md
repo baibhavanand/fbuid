@@ -1,6 +1,6 @@
 <h1 align="center" style="font-size:36px;font-weight:bold;">
         FbUID<br>
-        -Extract UserIDs of public Facebook Profiles instantly-
+        -Extract UserIDs From Public Facebook Accounts-
 </h1>
 <h4 align="center">
     <strong>Made with love by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
