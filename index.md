@@ -80,6 +80,11 @@ This tool is written completely in bash and can be used to extract userID for a 
     <img src="screenshots/fbuidFarg.png">
 </p>
 
+<h2 align="center">
+  <strong>LICENSE</strong>
+ </h2>
+ 
+ FbUID is licensed under the MIT license. Take a look at the [LICENSE](https://github.com/baibhavanand/fbuid/blob/main/LICENSE) for more information.
 
 
 <h2 align="center">
