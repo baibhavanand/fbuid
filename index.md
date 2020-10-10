@@ -115,4 +115,4 @@ Please check [FbUID github page](https://github.com/baibhavanand/fbuid) for info
 <hr>
 <i>This project is maintained by <a href="https://github.com/baibhavanand">Baibhav Anand Jha</a> | Twitter: <a href="https://twitter.com/spongebhav">@spongebhav</a></i>
 
-<a href="https://twitter.com/spongebhav"><img src="screenshots/signature.png"></a>
+<a href="https://twitter.com/spongebhav"><img src="screenshots/signature.png" width="400" height="200"></a>
