@@ -27,7 +27,7 @@ This tool is written completely in bash and can be used to extract userID for a 
 
 
 <h2 align="center">
-  <strong>Installation</strong>
+  <strong>Auto Installation</strong>
  </h2>
 
 * Download OR Clone the repository in your machine:
@@ -42,6 +42,22 @@ This tool is written completely in bash and can be used to extract userID for a 
 * Run install.sh:
 <pre>./install.sh</pre>
 
+
+<h2 align="center">
+  <strong>Manual Installation</strong>
+ </h2>
+
+* Download OR Clone the repository in your machine:
+<pre>git clone https://github.com/baibhavanand/fbuid</pre>
+
+* Switch to **fbuid** directory:
+<pre>cd fbuid</pre>
+
+* Give permissions to **fbuid**:
+<pre>sudo chmod 777 fbuid</pre>
+
+* Copy **fbuid** to **/usr/local/bin**
+<pre>sudo cp fbuid /usr/local/bin/fbuid</pre>
 
 <h2 align="center">
   <strong>Usage</strong>
