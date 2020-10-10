@@ -100,7 +100,7 @@ This tool is written completely in bash and can be used to extract userID for a 
  FbUID is licensed under the MIT license. Take a look at the [LICENSE](https://github.com/baibhavanand/fbuid/blob/main/LICENSE) for more information.
 
 <h2 align="center">
-  <strong>Feature Requests</strong>
+  <strong>Pull requests</strong>
  </h2>
 <p align="center">
     <a href="https://github.com/baibhavanand/fbuid/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
@@ -110,3 +110,9 @@ Currently there is an issue with FbUID where Facebook blocks our requests after 
 <strong>Pull Requests</strong> for any kind of development in FbUID are welcome.
 
 *While making a PR, make sure to add yourself in thanks.md list.*
+
+<br>
+<hr>
+<i>This project is maintained by <a href="https://github.com/baibhavanand">Baibhav Anand Jha</a> | Twitter: <a href="https://twitter.com/spongebhav">@spongebhav</a></i>
+
+<a href="https://twitter.com/spongebhav"><img src="screenshots/signatureblack.png" width="200" height="50"></a>
