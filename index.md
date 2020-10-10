@@ -104,7 +104,7 @@ This tool is written completely in bash and can be used to extract userID for a 
 
 
 <h2 align="center">
-  <strong>Feature Requests</strong>
+  <strong>Pull Requests</strong>
  </h2>
 <p align="center">
     <a href="https://github.com/baibhavanand/fbuid/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
