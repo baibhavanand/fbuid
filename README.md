@@ -10,7 +10,7 @@
 </p>
 
 <h2 align="center">
-  <strong>Introduction</strong>
+  <strong>About FbUID</strong>
  </h2>
 
 *Note: FbUID only works with Public Facebook Accounts.*
@@ -24,7 +24,7 @@ To fix this problem, I present you guys with this tool: **FbUID**.
 This tool is written completely in bash and can be used to extract userID for a public Facebook profiles if the username is known. You can specify a username or a text file containing a list of usernames to extract the userIDs from.
 
 <h2 align="center">
-  <strong>Installation</strong>
+  <strong>Auto Installation</strong>
  </h2>
 
 * Download OR Clone the repository in your machine:
@@ -39,6 +39,22 @@ This tool is written completely in bash and can be used to extract userID for a 
 * Run install.sh:
 <pre>./install.sh</pre>
 
+
+<h2 align="center">
+  <strong>Manual Installation</strong>
+ </h2>
+
+* Download OR Clone the repository in your machine:
+<pre>git clone https://github.com/baibhavanand/fbuid</pre>
+
+* Switch to **fbuid** directory:
+<pre>cd fbuid</pre>
+
+* Give permissions to fbuid:
+<pre>sudo chmod 777 fbuid</pre>
+
+* Copy fbuid to /usr/local/bin
+<pre>sudo cp fbuid /usr/local/bin/fbuid</pre>
 
 <h2 align="center">
   <strong>Usage</strong>
@@ -65,7 +81,11 @@ This tool is written completely in bash and can be used to extract userID for a 
     <img src="screenshots/fbuidFarg.png">
 </p>
 
-
+<h2 align="center">
+  <strong>LICENSE</strong>
+ </h2>
+ 
+ FbUID is licensed under the MIT license. Take a look at the [LICENSE](https://github.com/baibhavanand/fbuid/blob/main/LICENSE) for more information.
 
 <h2 align="center">
   <strong>Feature Requests</strong>
