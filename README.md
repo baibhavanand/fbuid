@@ -6,7 +6,7 @@
     <strong>Made with love by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
 </h4>
 <p align="center">
-    <img src="/screenshots/FbUIDhelp.png">
+    <img src="/images/FbUIDhelp.png">
 </p>
 
 <h2 align="center">
@@ -76,21 +76,21 @@ This tool is written completely in bash and can be used to extract userID for a 
   Simply entering fbuid will prompt you to enter username and then show you the UserID for that username.
   
   <p align="center">
-    <img src="screenshots/FbUIDnormal.png">
+    <img src="images/FbUIDnormal.png">
 </p>
   
   <pre>fbuid -u (username)</pre>
   Username can also be passed via -u argument.
   
   <p align="center">
-    <img src="screenshots/fbuidUarg.png">
+    <img src="images/fbuidUarg.png">
 </p>
 
   <pre>fbuid -f (file path)</pre>
   Users can also pass a file with list of usernames using -f argument.
   
   <p align="center">
-    <img src="screenshots/fbuidFarg.png">
+    <img src="images/fbuidFarg.png">
 </p>
 
 <h2 align="center">
@@ -115,4 +115,4 @@ Currently there is an issue with FbUID where Facebook blocks our requests after 
 <hr>
 <i>This project is maintained by <a href="https://github.com/baibhavanand">Baibhav Anand Jha</a> | Twitter: <a href="https://twitter.com/spongebhav">@spongebhav</a></i>
 
-<a href="https://twitter.com/spongebhav"><img src="screenshots/signatureblack.png" width="200" height="50"></a>
+<a href="https://twitter.com/spongebhav"><img src="images/signatureblack.png" width="200" height="50"></a>
