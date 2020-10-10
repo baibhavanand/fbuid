@@ -115,4 +115,4 @@ Currently there is an issue with FbUID where Facebook blocks our requests after 
 <hr>
 <i>This project is maintained by <a href="https://github.com/baibhavanand">Baibhav Anand Jha</a> | Twitter: <a href="https://twitter.com/spongebhav">@spongebhav</a></i>
 
-<a href="https://twitter.com/spongebhav"><img src="images/signatureblack.png" width="200" height="50"></a>
+<a href="https://twitter.com/spongebhav"><img src="images/signaturegreen.png" width="200" height="50"></a>
