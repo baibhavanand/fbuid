@@ -100,7 +100,7 @@ This tool is written completely in bash and can be used to extract userID for a 
  FbUID is licensed under the MIT license. Take a look at the [LICENSE](https://github.com/baibhavanand/fbuid/blob/main/LICENSE) for more information.
 
 <h2 align="center">
-  <strong>Pull requests</strong>
+  <strong>Pull Requests</strong>
  </h2>
 <p align="center">
     <a href="https://github.com/baibhavanand/fbuid/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
