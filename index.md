@@ -111,6 +111,13 @@ This tool is written completely in bash and can be used to extract userID for a 
 </p>
 
 Please check [FbUID github page](https://github.com/baibhavanand/fbuid) for information regarding the kind of pull requests I am accepting.
+
+<h2 align="center">
+  <strong>Thanks</strong>
+ </h2>
+ <p align="center">
+<img src="images/thanks.png" width="300" height="200"><br>
+I would like to thank <a href="https://github.com/baibhavanand/fbuid/blob/main/thanks.md">the following people</a> for contributing to this project.</p>
 <br><br><br><br>
 <hr>
 <i>This project is maintained by <a href="https://github.com/baibhavanand">Baibhav Anand Jha</a> | Twitter: <a href="https://twitter.com/spongebhav">@spongebhav</a></i>
