@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size:36px;font-weight:bold;"><pre>
+<h1 align="center" style="font-size:36px;font-weight:bold;"><pre style="background:null">>
 _         ___  _
 |_ |_  | |  |  | \
 |  |_) |_| _|_ |_/</pre><br>
