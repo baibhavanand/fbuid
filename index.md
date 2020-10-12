@@ -111,7 +111,7 @@ This tool is written completely in bash and can be used to extract userID for a 
 </p>
 
 Please check [FbUID github page](https://github.com/baibhavanand/fbuid) for information regarding the kind of pull requests I am accepting.
-
+<br>
 <h2 align="center">
   <strong>Thanks</strong>
  </h2>
