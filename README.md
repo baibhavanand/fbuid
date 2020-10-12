@@ -111,6 +111,13 @@ Currently there is an issue with FbUID (Check Issues Tab), feel free to create a
 
 *While making a PR, make sure to add yourself in thanks.md list.*
 
+<h2 align="center">
+  <strong>Thanks</strong>
+ </h2>
+<p align="center">
+<img src="https://github.com/baibhavanand/fbuid/blob/main/images/Thank%20you.png" width="300" height="200"><br>
+I would like to thank <a href="https://github.com/baibhavanand/fbuid/blob/main/thanks.md">the following people</a> for contributing to this project.</p>
+
 <br>
 <hr>
 <i>This project is maintained by <a href="https://github.com/baibhavanand">Baibhav Anand Jha</a> | Twitter: <a href="https://twitter.com/spongebhav">@spongebhav</a></i>
