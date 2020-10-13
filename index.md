@@ -23,7 +23,7 @@ However, getting Facebook userID for a user can sometimes be time-consuming and 
 
 To fix this problem, I present you guys with this tool: **FbUID**.
 
-This tool is written completely in bash and can be used to extract userID for a public Facebook profiles if the username is known. You can specify a username or a text file containing a list of usernames to extract the userIDs from.
+This tool is written completely in bash and can be used to extract userID for public Facebook accounts when the username is known. You can specify a username or a text file containing a list of usernames to extract userIDs from.
 
 
 <h2 align="center">
