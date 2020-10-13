@@ -12,7 +12,7 @@ _         ___  _
 </p>
 
 <h2 align="center">
-  <strong>Introduction</strong>
+  <strong>About FbUID</strong>
  </h2>
 
 *Note: FbUID only works with Public Facebook Accounts.*
