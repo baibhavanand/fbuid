@@ -5,7 +5,7 @@ _         ___  _
         -Extract UserIDs of public Facebook Profiles-
 </h1>
 <h4 align="center">
-    <strong>Made with love by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
+    <strong>Made with ❤️ by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
 </h4>
 <p align="center">
     <img src="images/FbUIDhelp.png">
