@@ -37,7 +37,7 @@ This tool is written completely in bash and can be used to extract userID for pu
 <pre>cd fbuid</pre>
 
 * Give permissions to install.sh file:
-<pre>sudo chmod 777 install.sh</pre>
+<pre>sudo chmod 555 install.sh</pre>
 
 * Run install.sh:
 <pre>./install.sh</pre>
@@ -52,9 +52,6 @@ This tool is written completely in bash and can be used to extract userID for pu
 
 * Switch to **fbuid** directory:
 <pre>cd fbuid</pre>
-
-* Give permissions to **fbuid**:
-<pre>sudo chmod 777 fbuid</pre>
 
 * Copy **fbuid** to **/usr/local/bin**
 <pre>sudo cp fbuid /usr/local/bin/fbuid</pre>
