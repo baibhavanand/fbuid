@@ -6,13 +6,16 @@
     <strong>Made with ❤️ by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
 </h4>
 <p align="center">
-    <img src="/images/FbUIDhelp.png">
+    <img src="/images/FbUIDBanner.png" width=350px height=350px>
 </p>
 
 <h2 align="center">
   <strong>About FbUID</strong>
  </h2>
-
+ 
+ <p align="center">
+ <img src="/images/FbUIDhelp.png">
+ </p>
 *Note: FbUID only works with Public Facebook Accounts.*
 
 As a developer, security researcher, bug bounty hunter, etc we often need the Facebook UserID of a user. For ex: userID for username: <strong>spongebhav</strong> is: <strong>100007536576842</strong>.
