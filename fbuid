@@ -22,9 +22,18 @@ do
 	esac
 done
 
+			
+
 function getUserId() {
-	local userid=`curl -L -s https://www.facebook.com/$1 | grep -o -P '(?<=entity_id":").*?(?="})'`;
-	echo "$userid"
+	
+	is_bsd=`grep -V | grep BSD`
+	if [[ $is_bsd == *"BSD"* ]]; then
+		local userid=`curl -L -s https://www.facebook.com/$1 | sed -e 's/}/\'$'\n/g; s/\"//g' | grep 'entity_id:[0-9]*' | awk -F":"  '{print $10}'`
+		echo "$userid"
+	else
+		local userid=`curl -L -s https://www.facebook.com/$1 | grep -o -P '(?<=entity_id":").*?(?="})'`;
+		echo "$userid"
+	fi
 }
 
 function renderResult() {
