@@ -5,9 +5,6 @@
 <h4 align="center">
     <strong>Made with ❤️ by Baibhav Anand. (<a href='https://twitter.com/spongebhav' target="_blank">@spongebhav</a>)</strong>
 </h4>
-<p align="center">
-    <img src="/images/FbUIDBanner.png" width=350px height=350px>
-</p>
 
   <p align="left">
  <img src="/images/SpongeFbUIDabout.png" width=550 height=275>
