@@ -7,10 +7,7 @@
 </h4>
 
   <p align="left">
- <img src="/images/SpongeFbUIDabout.png" width=550 height=275>
- </p>
-   <p align="right">
- <img src="/images/PatrickFbUIDabout.png" width=550 height=275>
+ <img src="/images/SpongePatrickFbUIDabout.png">
  </p>
  
 <h2 align="center">
@@ -33,7 +30,7 @@ To fix this problem, I present you guys with this tool: **FbUID**.
 This tool is written completely in bash and can be used to extract userID for a public Facebook profiles if the username is known. You can specify a username or a text file containing a list of usernames to extract the userIDs from.
 
   <p align="left">
- <img src="/images/SpongePatrickFbUIDinstallation.png" width=550 height=275>
+ <img src="/images/SpongePatrickFbUIDinstallation.png">
  </p>
 
 <h2 align="center">
