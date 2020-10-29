@@ -9,6 +9,13 @@
     <img src="/images/FbUIDBanner.png" width=350px height=350px>
 </p>
 
+  <p align="left">
+ <img src="/images/SpongeFbUIDabout.png" width=550 height=275>
+ </p>
+   <p align="right">
+ <img src="/images/PatrickFbUIDabout.png" width=550 height=275>
+ </p>
+ 
 <h2 align="center">
   <strong>About FbUID</strong>
  </h2>
@@ -16,6 +23,8 @@
  <p align="center">
  <img src="/images/FbUIDhelp.png">
  </p>
+
+ 
 *Note: FbUID only works with Public Facebook Accounts.*
 
 As a developer, security researcher, bug bounty hunter, etc we often need the Facebook UserID of a user. For ex: userID for username: <strong>spongebhav</strong> is: <strong>100007536576842</strong>.
@@ -25,6 +34,13 @@ However, getting Facebook userID for a user can sometimes be time-consuming and 
 To fix this problem, I present you guys with this tool: **FbUID**.
 
 This tool is written completely in bash and can be used to extract userID for a public Facebook profiles if the username is known. You can specify a username or a text file containing a list of usernames to extract the userIDs from.
+
+  <p align="left">
+ <img src="/images/SpongeFbUIDinstallation.png" width=550 height=275>
+ </p>
+   <p align="right">
+ <img src="/images/PatrickFbUIDinstallation.png" width=550 height=275>
+ </p>
 
 <h2 align="center">
   <strong>Auto Installation</strong>
@@ -56,6 +72,14 @@ This tool is written completely in bash and can be used to extract userID for a 
 * Copy fbuid to /usr/local/bin
 <pre>sudo cp fbuid /usr/local/bin/fbuid</pre>
 
+  <p align="left">
+ <img src="/images/SpongeFbUIDusage.png" width=550 height=275>
+ </p>
+   <p align="right">
+ <img src="/images/PatrickFbUIDusage.png" width=550 height=275>
+ </p>
+
+
 <h2 align="center">
   <strong>Usage</strong>
  </h2>
@@ -66,6 +90,13 @@ This tool is written completely in bash and can be used to extract userID for a 
 (no arguments)            | Fbuid will launch and will ask for username input
 -u            | Username can be passed through -u argument
 -f            | File path containing usernames can be specified via -f argument
+
+  <p align="left">
+ <img src="/images/SpongeFbUIDexample.png" width=550 height=275>
+ </p>
+   <p align="right">
+ <img src="/images/PatrickFbUIDexample.png" width=550 height=275>
+ </p>
 
 
 <h2 align="center">
