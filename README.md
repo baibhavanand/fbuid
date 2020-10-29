@@ -89,10 +89,7 @@ This tool is written completely in bash and can be used to extract userID for a 
 -f            | File path containing usernames can be specified via -f argument
 
   <p align="left">
- <img src="/images/SpongeFbUIDexample.png" width=550 height=275>
- </p>
-   <p align="right">
- <img src="/images/PatrickFbUIDexample.png" width=550 height=275>
+ <img src="/images/SpongePatrickFbUIDexample.png">
  </p>
 
 
