@@ -70,10 +70,7 @@ This tool is written completely in bash and can be used to extract userID for a 
 <pre>sudo cp fbuid /usr/local/bin/fbuid</pre>
 
   <p align="left">
- <img src="/images/SpongeFbUIDusage.png" width=550 height=275>
- </p>
-   <p align="right">
- <img src="/images/PatrickFbUIDusage.png" width=550 height=275>
+ <img src="/images/SpongePatrickFbUIDusage.png">
  </p>
 
 
