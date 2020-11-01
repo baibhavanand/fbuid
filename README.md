@@ -47,7 +47,7 @@ This tool is written completely in bash and can be used to extract userID for a 
 <pre>sudo chmod 555 install.sh</pre>
 
 * Run install.sh:
-<pre>./install.sh</pre>
+<pre>sudo ./install.sh --install</pre>
 
 
 <h2 align="center">
