@@ -1,4 +1,4 @@
-
+<script src="termynal.js" data-termynal-container="#termynal"></script>
 
 
 <h1 align="center" style="font-size:36px;font-weight:bold;"><pre style="background:null">
@@ -57,7 +57,7 @@ This tool is written completely in bash and can be used to extract userID for pu
 <span data-ty="input" data-ty-prompt="~/fbuid"> Installation Successful.</span>
 </div>
 <!-- include and initialise termynal.js -->
-<script src="termynal.js" data-termynal-container="#termynal"></script>
+
 
 
 <h2 align="center">
