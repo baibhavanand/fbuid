@@ -1,6 +1,3 @@
-<script src="termynal.js" data-termynal-container="#termynal"></script>
-
-
 <h1 align="center" style="font-size:36px;font-weight:bold;"><pre style="background:null">
 _         ___  _
 |_ |_  | |  |  | \
@@ -44,20 +41,6 @@ This tool is written completely in bash and can be used to extract userID for pu
 
 * Run install.sh:
 <pre>./install.sh</pre>
-
-<div id="termynal" data-termynal>
-<span data-ty="input">git clone https://github.com/baibhavanand/fbuid</span>
-<span data-ty>Cloning into 'fbuid'...</span>
-<span data-ty="progress"></span>
-<span data-ty>FbUID cloned.</span>
-<span data-ty></span>
-<span data-ty="input">cd fbuid</span>
-<span data-ty="input" data-ty-prompt="~/fbuid"> chmod 555 install.sh</span>
-<span data-ty="input" data-ty-prompt="~/fbuid"> ./install.sh</span>
-<span data-ty="input" data-ty-prompt="~/fbuid"> Installation Successful.</span>
-</div>
-<!-- include and initialise termynal.js -->
-
 
 
 <h2 align="center">
